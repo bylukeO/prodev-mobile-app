@@ -16,7 +16,7 @@ const Profile = () => {
             <Image source={require("@/assets/images/user-image.png")} />
             <View>
               <Text className=" font-semibold text-xl text-white">
-                Cole Baidoo
+                Luke Oladejo
               </Text>
               <Text className="text-sm font-thin text-white">@block_cs</Text>
             </View>
