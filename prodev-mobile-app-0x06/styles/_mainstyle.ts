@@ -94,6 +94,66 @@ const styles = StyleSheet.create({
     gap: SPACING.small,
     marginTop: 19,
   },
+  // Home page styles
+  searchGroup: {
+    padding: SPACING.medium,
+  },
+  searchFormGroup: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: COLORS.white,
+    borderRadius: 12,
+    padding: SPACING.small,
+  },
+  searchControlGroup: {
+    flex: 1,
+  },
+  searchFormText: {
+    fontSize: 16,
+    color: "#333",
+  },
+  searchControl: {
+    borderWidth: 0,
+    fontSize: 16,
+    color: "#333",
+  },
+  searchButton: {
+    backgroundColor: "#34967C",
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  filterGroup: {
+    flexDirection: "row",
+    paddingHorizontal: SPACING.medium,
+    gap: SPACING.small,
+  },
+  filterContainer: {
+    alignItems: "center",
+    padding: SPACING.small,
+    minWidth: 80,
+  },
+  listingContainer: {
+    flex: 1,
+    padding: SPACING.medium,
+  },
+  paginationContainer: {
+    alignItems: "center",
+    paddingVertical: SPACING.medium,
+  },
+  showMoreButton: {
+    backgroundColor: "#34967C",
+    paddingHorizontal: SPACING.large,
+    paddingVertical: SPACING.small,
+    borderRadius: 8,
+  },
+  showMoreButtonText: {
+    color: COLORS.white,
+    fontSize: 16,
+    fontWeight: "500",
+  },
 });
 
 export { styles };
